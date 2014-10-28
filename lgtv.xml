@@ -1,0 +1,69 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="rulelgtv" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="rulelgtv" scope="public">
+    <example>Sarah éteint la TV</example>
+    <tag>out.action=new Object(); </tag>
+    <item>Sarah</item>
+
+    <one-of>
+      <item>éteint la télévision<tag>out.action.lgtv = "1";</tag></item>
+	  <item>active la 3D<tag>out.action.lgtv = "400"; out.action.ok="yes";</tag></item>	  
+	  <item>désactive la 3D<tag>out.action.lgtv = "400";</tag></item>  
+	  <item>monte le son de la télé<tag>out.action.lgtv = "24";</tag></item>  
+	  <item>baisse le son de la télé<tag>out.action.lgtv = "25";</tag></item> 	
+	  <item>à droite<tag>out.action.lgtv = "15";</tag></item>  
+	  <item>à gauche<tag>out.action.lgtv = "14";</tag></item> 	
+	  <item>en haut<tag>out.action.lgtv = "12";</tag></item>  
+	  <item>en bas<tag>out.action.lgtv = "13";</tag></item> 	  	
+	  <item>sélectionnes<tag>out.action.lgtv = "47";</tag></item>
+	  <item>défile les infos vers le bas<tag>out.action.lgtv = "30";</tag></item>  
+	  <item>défile les infos vers le haut<tag>out.action.lgtv = "31";</tag></item> 
+	  <item>affiche le bandeau réglage<tag>out.action.lgtv = "405";</tag></item>
+	  <item>affiche les chaines favorites<tag>out.action.lgtv = "404";</tag></item>
+	  <item>laisse moi choisir les sources<tag>out.action.lgtv = "47";</tag></item>
+	  <item>affiche le menu de la télé<tag>out.action.lgtv = "22";</tag></item>
+	  <item>affiche les applications LG<tag>out.action.lgtv = "21";</tag></item>
+	  <item>monte beaucoup le son de la télé<tag>out.action.lgtv = "24";out.action.beaucoup="yes"</tag></item>  
+	  <item>baisse beaucoup le son de la télé<tag>out.action.lgtv = "25";out.action.beaucoup="yes"</tag></item> 
+	  <item>coupe le son de la télé<tag>out.action.lgtv = "26";</tag></item> 
+	  <item>remet le son de la télé<tag>out.action.lgtv = "26";</tag></item>
+	  <item>met la chaine suivante<tag>out.action.lgtv = "27";</tag></item>
+	  <item>met la chaine précédente<tag>out.action.lgtv = "28";</tag></item>
+	  <item>met le programme sur la télé<tag>out.action.lgtv = "44";</tag></item>
+	  <item>revient sur la télé<tag>out.action.lgtv = "412";</tag></item>
+	  <item>affiche les infos du programme<tag>out.action.lgtv = "45";</tag></item>
+	  <item>affiche le bandeau d'application<tag>out.action.lgtv = "417";</tag></item>
+	  <item>met la un<tag>out.action.lgtv = "3"; out.action.chaine="yes"</tag></item>
+	  <item>met TF1<tag>out.action.lgtv = "3"; out.action.chaine="yes"</tag></item>
+	  <item>met la deux<tag>out.action.lgtv = "4"; out.action.chaine="yes"</tag></item>
+	  <item>met france deux<tag>out.action.lgtv = "4"; out.action.chaine="yes"</tag></item>
+	  <item>met la trois<tag>out.action.lgtv = "5"; out.action.chaine="yes"</tag></item>
+	  <item>met la quatre<tag>out.action.lgtv = "6"; out.action.chaine="yes"</tag></item>
+	  <item>met la cinq<tag>out.action.lgtv = "7"; out.action.chaine="yes"</tag></item>
+	  <item>met la six<tag>out.action.lgtv = "8"; out.action.chaine="yes"</tag></item>
+	  <item>met la sept<tag>out.action.lgtv = "9"; out.action.chaine="yes"</tag></item>
+	  <item>met la huit<tag>out.action.lgtv = "10"; out.action.chaine="yes"</tag></item>
+	  <item>met la neuf<tag>out.action.lgtv = "11"; out.action.chaine="yes"</tag></item>
+	  <item>met la dix<tag>out.action.lgtv = "3";out.action.lgtv2 = "2"; out.action.chaine="yes"</tag></item>
+	  <item>met la onze<tag>out.action.lgtv = "3";out.action.lgtv2 = "3"; out.action.chaine="yes"</tag></item>
+	  <item>met la douze<tag>out.action.lgtv = "3";out.action.lgtv2 = "4"; out.action.chaine="yes"</tag></item>	  
+	  <item>met NRJ douze<tag>out.action.lgtv = "3";out.action.lgtv2 = "4"; out.action.chaine="yes"</tag></item>
+	  <item>met la treize<tag>out.action.lgtv = "3";out.action.lgtv2 = "5"; out.action.chaine="yes"</tag></item>
+	  <item>met la quatorze<tag>out.action.lgtv = "3";out.action.lgtv2 = "6"; out.action.chaine="yes"</tag></item>
+	  <item>met la quinze<tag>out.action.lgtv = "3";out.action.lgtv2 = "7"; out.action.chaine="yes"</tag></item>
+	  <item>met la seize<tag>out.action.lgtv = "3";out.action.lgtv2 = "8"; out.action.chaine="yes"</tag></item>
+	  <item>met la dix sept<tag>out.action.lgtv = "3";out.action.lgtv2 = "9"; out.action.chaine="yes"</tag></item>
+	  <item>met la dix huit<tag>out.action.lgtv = "3";out.action.lgtv2 = "10"; out.action.chaine="yes"</tag></item>
+	  <item>met la dix neuf<tag>out.action.lgtv = "3";out.action.lgtv2 = "11"; out.action.chaine="yes"</tag></item>
+	  <item>met la vingt<tag>out.action.lgtv = "4";out.action.lgtv2 = "2"; out.action.chaine="yes"</tag></item>
+	  <item>met la vingt et un<tag>out.action.lgtv = "4";out.action.lgtv2 = "3"; out.action.chaine="yes"</tag></item>
+	  <item>met la vingt deux<tag>out.action.lgtv = "4";out.action.lgtv2 = "4"; out.action.chaine="yes"</tag></item>
+	  <item>met la vingt trois<tag>out.action.lgtv = "4";out.action.lgtv2 = "5"; out.action.chaine="yes"</tag></item>
+	  <item>met la vingt quatre<tag>out.action.lgtv = "4";out.action.lgtv2 = "6"; out.action.chaine="yes"</tag></item>
+	  <item>met la vingt cinq<tag>out.action.lgtv = "4";out.action.lgtv2 = "7"; out.action.chaine="yes"</tag></item>
+	  <item>met la vingt six<tag>out.action.lgtv = "4";out.action.lgtv2 = "8"; out.action.chaine="yes"</tag></item>
+    </one-of>
+    
+    <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/lgtv";</tag>
+    
+  </rule>  
+</grammar>

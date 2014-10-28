@@ -1,0 +1,10 @@
+{
+  "modules" : { 
+    "lgtv"  : {
+      "description" : "LG TV",
+      "version" : "1.0",
+      "ip" : "",
+      "key" : ""
+    }
+  }
+}
