@@ -14,7 +14,7 @@
 	  <item>à gauche<tag>out.action.lgtv = "14";</tag></item> 	
 	  <item>en haut<tag>out.action.lgtv = "12";</tag></item>  
 	  <item>en bas<tag>out.action.lgtv = "13";</tag></item> 	  	
-	  <item>sélectionnes<tag>out.action.lgtv = "47";</tag></item>
+	  <item>sélectionnes<tag>out.action.lgtv = "20";</tag></item>
 	  <item>défile les infos vers le bas<tag>out.action.lgtv = "30";</tag></item>  
 	  <item>défile les infos vers le haut<tag>out.action.lgtv = "31";</tag></item> 
 	  <item>affiche le bandeau réglage<tag>out.action.lgtv = "405";</tag></item>
